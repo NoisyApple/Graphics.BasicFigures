@@ -85,6 +85,10 @@ public class Figures extends JFrame {
 
       g2d.setColor(Color.getHSBColor((float) Math.random(), 0.6f, 1f));
       g2d.drawString("Example text", 200, 400);
+
+      g2d.setColor(Color.getHSBColor((float) Math.random(), 0.6f, 1f));
+      g2d.drawArc(450, 350, 100, 100, 0, 180);
+      g2d.fillArc(550, 350, 100, 50, 90, -180);
     }
 
     // Overwriten method getPreferredSize for window bounds to fit panel size.
